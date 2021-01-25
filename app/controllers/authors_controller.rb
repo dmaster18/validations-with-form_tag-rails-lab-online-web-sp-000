@@ -40,4 +40,5 @@ lass AuthorsController < ApplicationController
   def set_author!
     @author = Author.find(params[:id])
   end
+  
 end
